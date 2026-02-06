@@ -1,6 +1,6 @@
 # CSS-Positioning-and-Layout
 
-For this assignment, create CSS to style the attached [</html>[HTML](https://github.com/user-attachments/files/25114639/index.html)] document.  The colors, backgrounds, font sizes, line spacing, etc. for the different elements can be any.  Here, the grade will be determined specifically by the achievement of the following:
+Create CSS to style the attached [</html>[HTML](https://github.com/user-attachments/files/25114639/index.html)] document.  The colors, backgrounds, font sizes, line spacing, etc. for the different elements can be any.  Here, the grade will be determined specifically by the achievement of the following:
 
 The "jump menu" is positioned on the left, and spans the entire height of the page.
 The "header" (e.g. MyBlog and buttons) is always on the top of the page, and they are unaffected by scrolling.
