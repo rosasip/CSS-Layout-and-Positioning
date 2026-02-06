@@ -1,0 +1,186 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+#jumpMenu { 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px; 
+    height: 100vh;
+    background-color: #f7ab06; 
+    padding: 20px 10px;
+    z-index: 10;
+}
+  
+/*  */
+#jumpMenu h2 { 
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#jumpMenu a {
+    display: block;
+    color: #0000EE; 
+    margin: 15px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 200px; 
+    right: 0;
+    background-color: #ff0000; 
+    z-index: 5;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+/* The Black Navigation Row, behind my blue buttons */
+header nav {
+    background-color: #030310; 
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header nav a {
+    color: rgb(0, 3, 0);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 5px 15px;
+
+}
+
+header p{  /* The my blog section */ 
+    text-align: center; 
+    color: #100000;
+    font-size: 20px;
+    margin-top: 10px;  
+    margin-bottom: 10px; 
+}
+
+header button{  /* My blue buttons*/
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(245, 241, 241); /*Color for the font */
+    background-color: rgb(32, 29, 241); 
+    padding: 10px;
+    margin: 0;
+    height: auto;
+    position: static;
+    overflow: visible;
+    display: inline-block;
+
+}
+
+main {
+    margin-left: 200px; 
+    margin-top: 130px; 
+    padding: 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap; /* Required for reorganization on resize */
+    gap: 25px;
+    justify-content: flex-start; 
+}
+
+article {
+    width: 300px; 
+    background-color: #fff;
+    padding: 10px;
+}
+
+article h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+/* 4. Thank You Block - Bottom-right, always shown */
+#thanks {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #aaddff; /* Light blue box */
+    color: #000;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid #999;
+    z-index: 100;
+}
+
+  /* I did not see the section below in the instructions but I did it anyway */
+
+/* Contact Us Footer Styling */
+footer {
+    background-color: #f39abd; /* Light pink background */
+    padding: 30px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f0101;
+    margin-bottom: 25px;
+}
+
+/* Contact info layout */
+address div {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* 2 columns: labels and values */
+    gap: 15px 30px; /* 15px between rows, 30px between columns */
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: left;
+}
+
+  /* Label styling (Phone:, Email:, etc.) */
+address div span:nth-child(odd) {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #920909;
+    text-align: right;
+}
+
+/* Value styling (phone number, email link, etc.) */
+address div span:nth-child(even) {
+    color: #0c0000;
+}
+
+/* Email link styling */
+footer a {
+    color: rgb(25, 60, 232); 
+    text-decoration: none;
+}
+
