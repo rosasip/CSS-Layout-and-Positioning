@@ -19,11 +19,11 @@ Upload the HTML and the CSS that styles it to your GitHub IO.  Submit the link t
 Grading:
 
 Your grade will be determined by adherence to the requirements described above.
-<img width="1885" height="894" alt="image" src="https://github.com/user-attachments/assets/ffc63724-e206-44b7-b731-12d6de99d4aa" />
+<img width="1885" height="894" alt="image" src="https://github.com/user-attachments/assets/c8493c26-f498-4172-a28f-e5656991ceb2" />
 
 Resized Window Example:
+<img width="1164" height="893" alt="image" src="https://github.com/user-attachments/assets/40054af4-6e53-40ce-8662-22cf34df6f52" />
 
-<img width="1164" height="893" alt="image" src="https://github.com/user-attachments/assets/d9bfbed3-5aed-4739-afbb-c337f35f0f1c" />
 
 
 
