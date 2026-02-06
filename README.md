@@ -14,7 +14,7 @@ Each journal article should have a fixed width, such as 300px.
 The width of the jump menu affects the width of the header; it is possible to use percentage as a unit (e.g. 15%)
 Submitting
 
-Upload the HTML and the CSS that styles it to your GitHub IO.  Submit the link to the page so it can be viewed in the browser.
+
 
 Grading:
 
